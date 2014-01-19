@@ -1,4 +1,4 @@
-just-dice-bot
+doge-dice-bot
 =============
 
 Hi, this is a betting bot for doge-dice.com. Feel free to use it under GPL. If you want to donate some Beer (DGC): DCDYd5dkHEJiNaKFCiB98JDVxKNcQX6Fvu Thanks.
