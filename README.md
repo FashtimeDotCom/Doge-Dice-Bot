@@ -1,12 +1,12 @@
-just-dice-bot
+DOGE-dice-bot
 =============
 
-Hi, this is a betting bot for just-dice.com. Feel free to use it under GPL. If you want to donate some Beer (BTC): 1CDjWb7zupTfQihc6sMeDvPmUHkfeMhC83 Thanks.
+Hi, this is a betting bot for doge-dice.com. Feel free to use it under GPL. If you want to donate some Beer (Doge): DCDYd5dkHEJiNaKFCiB98JDVxKNcQX6Fvu Thanks.
 
 HOW IT WORKS
 -------------
 
-Just-dice has no api. What is used here is remoting the website with selenium. The bot runs - in difference to other bots - in the command line. IMHO this is much more stable than a Greasemonkey-Script running in a browser itself.
+doge-dice has no api. What is used here is remoting the website with selenium. The bot runs - in difference to other bots - in the command line. IMHO this is much more stable than a Greasemonkey-Script running in a browser itself.
 
 WHY USE this bot?
 -------------
@@ -25,7 +25,7 @@ WHY USE this bot?
 auto-tip
 -------------
 
-Here's the deal: I made the bot, which gathers you BTC. 
+Here's the deal: I made the bot, which gathers you Doge. 
 I'll support your as long as enough donations come in.
 So if you win, the bot sends X percent (default: 1%) to me. 
 Let the bot builder life :D We will have nice winnings together :)
@@ -123,7 +123,7 @@ This is taken from my currently running bot:
     * session: +0.00005180		:	balance changed since bot start
     * (+0.00077151(+005.7%)/d)	:	if we calculate the current winnings to one day, we would have +0.00077151 (which is +5.7% daily)
       Two optional parameters may occur:
-    o max lost: -0.00001257		:	max. lost btc since last win (only shown if it's higher than ever before in this session)
+    o max lost: -0.00001257		:	max. lost dgc since last win (only shown if it's higher than ever before in this session)
     o max rows: 60				:	max. rows since last win (only shown if it's higher than ever before in this session)
 
 A huge beginners error is watching at the percentage, and panic on -500% on third bet or so.
@@ -160,12 +160,11 @@ ON ERRORS
 LICENSE
 -------------
 
-GPLv2 applies. Please refer to this project:
-https://github.com/KgBC/just-dice-bot
+GPLv2 applies. 
 
 DONATE (Beer)
 -------------
 
-Send your satoshi's to: 1CDjWb7zupTfQihc6sMeDvPmUHkfeMhC83
+Send your doges to: DCDYd5dkHEJiNaKFCiB98JDVxKNcQX6Fvu
 Or even better: use auto-tip feature :)
 Thanks.
