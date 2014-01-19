@@ -1,12 +1,12 @@
-doge-dice-bot
+just-dice-bot
 =============
 
-Hi, this is a betting bot for doge-dice.com. Feel free to use it under GPL. If you want to donate some Beer (DGC): DCDYd5dkHEJiNaKFCiB98JDVxKNcQX6Fvu Thanks.
+Hi, this is a betting bot for just-dice.com. Feel free to use it under GPL. If you want to donate some Beer (BTC): 1CDjWb7zupTfQihc6sMeDvPmUHkfeMhC83 Thanks.
 
 HOW IT WORKS
 -------------
 
-doge-dice has no api. What is used here is remoting the website with selenium. The bot runs - in difference to other bots - in the command line. IMHO this is much more stable than a Greasemonkey-Script running in a browser itself.
+Just-dice has no api. What is used here is remoting the website with selenium. The bot runs - in difference to other bots - in the command line. IMHO this is much more stable than a Greasemonkey-Script running in a browser itself.
 
 WHY USE this bot?
 -------------
@@ -99,7 +99,7 @@ Copy config-DEFAULT.py to config.py. Then just edit some vars in config.py, they
 RUNNING
 -------------
 
-```python doge-dice-bot.py```
+```python just-dice-bot.py```
 
 It will show every bet with one line:
 This is taken from my currently running bot:
@@ -155,15 +155,17 @@ ON ERRORS
 * explain, what you see and what the bot does
 * describe your system (linux/windows, python version, ...)
 * copy the stack trace from command line if any
+* report on github: https://github.com/KgBC/just-dice-bot/issues
 
 LICENSE
 -------------
 
-GPLv2 applies.
+GPLv2 applies. Please refer to this project:
+https://github.com/KgBC/just-dice-bot
 
 DONATE (Beer)
 -------------
 
-Send your dogecoins to: DCDYd5dkHEJiNaKFCiB98JDVxKNcQX6Fvu
+Send your satoshi's to: 1CDjWb7zupTfQihc6sMeDvPmUHkfeMhC83
 Or even better: use auto-tip feature :)
 Thanks.
