@@ -20,7 +20,7 @@
 # * lose_rounds : is used to calculate the starting bet. How?
 #                 Lets do a simple example: we double on every loss (which means multiplyer: 2.0)
 #                 We set lose_rounds to 4 (which is much too low, we need to survive more losses, but it's easier to explain)
-#                 Lets again think of a balance with 0.1 Bitcoins
+#                 Lets again think of a balance with 0.1 Dogecoins
 #                 The bot calculates: 0.1 doge /2 = 0.05 /2 = 0.025 /2 = 0.125 /2 = 0.00625 doge.
 #                 in this example, the first bet will be 0.00625.
 #                 THIS is recalculated (better: simulated) after every win
@@ -62,22 +62,22 @@
 
 #----------------------------- SHORT DESCRIPTION -----------------------------
 # this is a very safe standard martingale system.
-rounds = 200
+
 jdb_config = {
-    "visible"    : 1,					#1 = show selenium browser automation (slower, but you see what happens, dont use in productive)
+    "visible"    : 0,					#1 = show selenium browser automation (slower, but you see what happens, dont use in productive)
     "user"       : "USERNAME",			#your user and password on just-dice
     "pass"       : "PASSWORD",
     "lose_rounds": 20,					#bet, so that we could lose for X rounds. Minimum bet is 0.00000001.
-    "chance"     : 49.5				#which chance do we want to bet on
-    "multiplier" : 2,					#multiply bet by X on lose
-    "safe_perc"  : 10,                 #percent of balance is NOT used for first bet calculation
-    "auto-tip"   : 1,
-    "hi_lo"      : 'switch_on_win',      #IMPORTANT: 
-                                        #This is my deal: I made the bot, which gathers you doge. 
+    "chance"     : 49.5,				#which chance do we want to bet on
+    "multiplier" : 2.0,					#multiply bet by X on lose
+    "safe_perc"  : 5.0,                 #percent of balance is NOT used for first bet calculation
+    "auto-tip"   : 1,                   #IMPORTANT: 
+                                        #This is my deal: I made the bot, which gathers you DGC. 
                                         #I'll support your as long as enough donations come in.
                                         #So if you win, the bot sends X percent (default: 1%) to me. 
                                         #Let the bot builder life :D We will have nice winnings together :)
 }
+
 
 ### ah yes, remember:
 ### leave auto-tip on, or buy me some beer if you win, and I'll continue development :) Thanks!
